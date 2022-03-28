@@ -1,8 +1,3 @@
-import type { NextPage } from 'next'
-import Index from 'components/Index'
-
-const Home: NextPage = () => {
-    return <Index />
+export default function Index() {
+    return <h1>teste</h1>
 }
-
-export default Home
